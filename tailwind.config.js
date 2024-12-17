@@ -20,7 +20,8 @@ export default {
             },
 
             colors: {
-                primary: '#0284c7',
+                primary: '#0891b2',
+                secondary: '#64748b',
                 dark: '#0f172a'
             },
             screens: {
