@@ -20,11 +20,44 @@
                     <a href="#home" class="font-bold text-lg text-primary block py-6">mahelbee</a>
                 </div>
                 <div class="flex items-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absoluter right-4">
-                        <span class="hamburger-line"></span>
-                        <span class="hamburger-line"></span>
-                        <span class="hamburger-line"></span>
+                    <button id="hamburger" name="hamburger" type="button" class="block absoluter right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About
+                                    me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
+                            </li>
+                            </li>
+                            <li class="group">
+                                <a href="#clients"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+
                 </div>
             </div>
         </div>
@@ -134,8 +167,8 @@
                         {{-- twitter --}}
                         <a href="https://x.com/izi0001" target="blank"
                             class="h-9 w-9 mr-3 rounded-full flex justify-center items-center border  border-slate-300 hover:border-primary hover:bg-primary text-slate-300 hover:text-white">
-                            <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                class="fill-current">
+                            <svg role="img" width="20" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" class="fill-current">
                                 <title>X</title>
                                 <path
                                     d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
@@ -145,8 +178,8 @@
                         {{-- telegram --}}
                         <a href="" target="blank"
                             class="h-9 w-9 mr-3 rounded-full flex justify-center items-center border  border-slate-300 hover:border-primary hover:bg-primary text-slate-300 hover:text-white">
-                            <svg role="img" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                class="fill-current">
+                            <svg role="img" width="20" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg" class="fill-current">
                                 <title>Telegram</title>
                                 <path
                                     d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
@@ -157,17 +190,68 @@
 
             </div>
         </div>
-
     </section>
-
-
-
-
-
-
-
-
     {{-- About me section end  --}}
+
+    {{-- portfolio section start --}}
+    <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4">Project</h2>
+                    <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Magni rerum maxime alias natus delectus
+                        dolorum consequuntur inventore esse nisi ratione eaque adipisci explicabo et animi aliquam,
+                        asperiores deserunt ex non?
+                    </p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/1.png" alt="blog laravel" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">my blog</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Nemo
+                        molestias recusandae amet?</p>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/2.png" alt="puskesmas" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">SIMPUS</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Nemo
+                        molestias recusandae amet?</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/3.png" alt="pppm" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">PPPM Baitul Izzah Aziziah</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Nemo
+                        molestias recusandae amet?</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="img/4.png" alt="iklan kopi gayo" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Gayo Coffee</h3>
+                    <p class="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Nemo
+                        molestias recusandae amet?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- portfolio section end --}}
+
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
