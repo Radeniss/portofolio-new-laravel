@@ -44,8 +44,8 @@
                             </li>
                             </li>
                             <li class="group">
-                                <a href="#clients"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                                <a href="#certificate"
+                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Certificate</a>
                             </li>
                             <li class="group">
                                 <a href="#blog"
@@ -187,7 +187,6 @@
                         </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -199,8 +198,9 @@
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4">Project</h2>
-                    <p class="font-medium text-md text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Project</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
                         elit. Magni rerum maxime alias natus delectus
                         dolorum consequuntur inventore esse nisi ratione eaque adipisci explicabo et animi aliquam,
                         asperiores deserunt ex non?
@@ -247,9 +247,210 @@
                 </div>
             </div>
         </div>
+
     </section>
     {{-- portfolio section end --}}
 
+    {{-- cetificate section start --}}
+    <section id="certificate" class="bg-blueb">
+        <div class="pt-0 ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f1f5f9" fill-opacity="1"
+                    d="M0,192L26.7,208C53.3,224,107,256,160,229.3C213.3,203,267,117,320,112C373.3,107,427,181,480,208C533.3,235,587,213,640,181.3C693.3,149,747,107,800,101.3C853.3,96,907,128,960,165.3C1013.3,203,1067,245,1120,224C1173.3,203,1227,117,1280,80C1333.3,43,1387,53,1413,58.7L1440,64L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+                </path>
+            </svg>
+        </div>
+
+        <div class="container">
+            <div class="w-full px-4">
+                <div class=" mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2 ">Certificate</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">I got several certificates
+                    </h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Dolore ad corrupti quidem.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-full px-10">
+                <div class=" flex flex-wrap items-center justify-center ">
+                    <a href="#" class="mb-10 p-2 md:w-1/2 md:-px-10">
+                        <img class="max-w-[350px] mx-auto rounded-md overflow-hidden shadow-md" src="img/1.png"
+                            alt="">
+                        <div>
+                            <h3 class="font-semibold text-xl text-dark mt-3">w3 school certificate</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="mb-10 p-2 md:w-1/2 md:px-10">
+                        <img class="max-w-[350px] mx-auto rounded-md overflow-hidden shadow-md mb-10" src="img/1.png"
+                            alt="">
+                    </a>
+                    <a href="#" class="mb-10 p-2 md:w-1/2 md:-px-10">
+                        <img class="max-w-[350px] mx-auto rounded-md overflow-hidden shadow-md mb-10" src="img/1.png"
+                            alt="">
+                    </a>
+                    <a href="#" class="mb-10 p-2 md:w-1/2 md:px-10">
+                        <img class="max-w-[350px] mx-auto rounded-md overflow-hidden shadow-md mb-10" src="img/1.png"
+                            alt="">
+                    </a>
+                    <a href="#" class="mb-10 p-2 md:w-1/2 md:-px-10">
+                        <img class="max-w-[350px] mx-auto rounded-md overflow-hidden shadow-md mb-10" src="img/1.png"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- certificate section end --}}
+
+    {{-- clients section start --}}
+    <div id="section" class="bg-slate-700">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#D9EAFD" fill-opacity="1"
+                    d="
+                    M0,192L26.7,208C53.3,224,107,256,160,229.3C213.3,203,267,117,320,112C373.3,107,427,181,480,208C533.3,235,587,213,640,181.3C693.3,149,747,107,800,101.3C853.3,96,907,128,960,165.3C1013.3,203,1067,245,1120,224C1173.3,203,1227,117,1280,80C1333.3,43,1387,53,1413,58.7L1440,64L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+                </path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="w-full px-4">
+                <div class=" mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Clients</h4>
+                    <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">I have worked with</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit. Dolore ad corrupti quidem.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="#"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="img/clients/google.png" alt="google">
+                    </a>
+                    <a href="#"
+                        class="max-w-[120px] mx-4 py-4 opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="img/clients/netflix.png" alt="netflix">
+                    </a>
+                    <a href="#"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="img/clients/gojek.svg" alt="gojek">
+                    </a>
+                    <a href="#"
+                        class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="img/clients/dana.png" alt="dana">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rotate-180 -mb-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f1f5f9"
+                    d="
+                    M0,192L26.7,208C53.3,224,107,256,160,229.3C213.3,203,267,117,320,112C373.3,107,427,181,480,208C533.3,235,587,213,640,181.3C693.3,149,747,107,800,101.3C853.3,96,907,128,960,165.3C1013.3,203,1067,245,1120,224C1173.3,203,1227,117,1280,80C1333.3,43,1387,53,1413,58.7L1440,64L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    {{-- clients section end --}}
+
+    {{-- blog section start? --}}
+    <section id="blog" class="pt-20  pb-32 bg-slate-100">
+        <div class="container">
+
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Tulisan Terkini</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Cumque odit minima sint dolores.
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="img/blog/unsplash1.png" alt="programming" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <a href="#"
+                                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Seeing
+                                    Grandpa's Car</a>
+                            </h3>
+                            <p class="font-medium text-base text-secondary mb-4">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Animi, perspiciatis.</p>
+                            <a href="#"
+                                class="font-medium text-sm text-white bg-primary rounded-md shadow-lg py-2 px-4 hover:opacity-80">baca
+                                selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="img/blog/unsplash1.png" alt="programming" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <a href="#"
+                                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Activities
+                                    On Campus</a>
+                            </h3>
+                            <p class="font-medium text-base text-secondary mb-4">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Corrupti unde exercitationem labore aliquid, ex facilis esse minima
+                                adipisci facere repudiandae?</p>
+                            <a href="#"
+                                class="font-medium text-sm text-white bg-primary rounded-md shadow-lg py-2 px-4 hover:opacity-80">baca
+                                selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+                        <img src="img/blog/unsplash1.png" alt="programming" class="w-full">
+                        <div class="py-8 px-6">
+                            <h3>
+                                <a href="#"
+                                    class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Developing
+                                    AI</a>
+                            </h3>
+                            <p class="font-medium text-base text-secondary mb-4">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Nisi libero voluptates esse dolor ratione voluptatum?</p>
+                            <a href="#"
+                                class="font-medium text-sm text-white bg-primary rounded-md shadow-lg py-2 px-4 hover:opacity-80">baca
+                                selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- blog section end --}}
+
+    {{-- contact section start --}}
+    <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Contact Us</h2>
+                    <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Expedita sit cum optio accusantium minima nihil sunt, magnam sequi.
+                    </p>
+                </div>
+            </div>
+            <form action="">
+                <div class="w-full px-4 mb-8">
+                    <label for="name" class="text-base font-bold text-primary">Nama</label>
+                    <input type="text" name="" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none">
+                </div>
+            </form>
+        </div>
+    </section>
+    {{-- contact section end --}}
 
     <script src="js/script.js"></script>
 </body>
