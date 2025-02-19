@@ -442,15 +442,49 @@
                     </p>
                 </div>
             </div>
+
             <form action="">
-                <div class="w-full px-4 mb-8">
-                    <label for="name" class="text-base font-bold text-primary">Nama</label>
-                    <input type="text" name="" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none">
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base font-bold text-primary">Nama</label>
+                        <input type="text" name="" id="name"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base font-bold text-primary">Email</label>
+                        <input type="text" name="" id="email"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="message" class="text-base font-bold text-primary">Message</label>
+                        <textarea type="text" email="" id="message"
+                            class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"> </textarea>
+                    </div>
+                    <div class="w-full px-4">
+                        <button
+                            class="text-base font-semibold text-white  bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send</button>
+                    </div>
                 </div>
             </form>
         </div>
     </section>
     {{-- contact section end --}}
+
+    {{-- footer start --}}
+<footer class="bg-dark pt-24 pb-12">
+    <div class="container">
+        <div class="flex flex-warp">
+            <div class="w-full px-4 mb-12">
+                <h2 class="">bee studio</h2>
+                <h3>Contact Us</h3>
+                <p>radenis3354@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+    {{-- footer end --}}
+
+
 
     <script src="js/script.js"></script>
 </body>
