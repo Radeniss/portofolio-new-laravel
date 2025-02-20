@@ -471,17 +471,63 @@
     {{-- contact section end --}}
 
     {{-- footer start --}}
-<footer class="bg-dark pt-24 pb-12">
-    <div class="container">
-        <div class="flex flex-warp">
-            <div class="w-full px-4 mb-12">
-                <h2 class="">bee studio</h2>
-                <h3>Contact Us</h3>
-                <p>radenis3354@gmail.com</p>
+    <footer class="bg-dark pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-warp">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">bee studio</h2>
+                    <h3 class="font-bold text-2xl mb-2">Contact Us</h3>
+                    <p>radenis3354@gmail.com</p>
+                    <p>Jl. Bukit Indah, kampus Universitas Malikussaleh</p>
+                    <p>Lhokseumawe</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class=" inline-block text-base hover:text-primary mb-3">Programming</a>
+                        </li>
+                        <li>
+                            <a href="#" class=" inline-block text-base hover:text-primary mb-3">Teknologi</a>
+                        </li>
+                        <li>
+                            <a href="#" class=" inline-block text-base hover:text-primary mb-3">Gaya Hidup</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class=" inline-block text-base hover:text-primary mb-3">Home</a>
+                        </li>
+                        <li>
+                            <a href="about" class=" inline-block text-base hover:text-primary mb-3">About Me</a>
+                        </li>
+                        <li>
+                            <a href="portfolio" class=" inline-block text-base hover:text-primary mb-3">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="project" class=" inline-block text-base hover:text-primary mb-3">Project</a>
+                        </li>
+                        <li>
+                            <a href="certificate" class=" inline-block text-base hover:text-primary mb-3">Sertificate</a>
+                        </li>
+                        <li>
+                            <a href="clients" class=" inline-block text-base hover:text-primary mb-3">Clients</a>
+                        </li>
+                        <li>
+                            <a href="blog" class=" inline-block text-base hover:text-primary mb-3">Blog</a>
+                        </li>
+                        <li>
+                            <a href="contact" class=" inline-block text-base hover:text-primary mb-3">Contact Us</a>
+                        </li>
+                        
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
     {{-- footer end --}}
 
 
