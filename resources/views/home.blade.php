@@ -584,7 +584,7 @@
                         </svg>
                     </a>
                 </div>
-                <p class="font-medium text-sm text-slate-500 text-center text-xs">Create by mahelbee, With Tailwind CSS</p>
+                <p class="font-medium text-slate-500 text-center text-xs">Create by mahelbee, With Tailwind CSS</p>
             </div>
         </div>
     </footer>
