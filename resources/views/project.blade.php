@@ -1,3 +1,4 @@
-<div>
-    <!-- Because you are alive, everything is possible. - Thich Nhat Hanh -->
-</div>
+<x-layout>
+
+    <x-projects></x-projects>
+</x-layout>

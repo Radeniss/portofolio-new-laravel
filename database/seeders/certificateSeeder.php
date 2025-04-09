@@ -15,8 +15,9 @@ class certificateSeeder extends Seeder
     {
         \App\Models\certificates::create([
             'name' => 'Certificate Name',
-            'description' => 'Certificate Description',
+            'slug' => 'Certificate slug',
             'image' => 'default.jpg',
+            'description' => 'Certificate Description',
             'created_at' => now(),
             'updated_at' => now(),
         ]);

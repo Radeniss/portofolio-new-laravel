@@ -15,28 +15,34 @@ class projectSeeder extends Seeder
     public function run(): void
     {
         projects::create([
-            'name' => 'Project 1',
+            'judul' => 'Project 1',
             'slug' => 'project-1',
-            'description' => 'Description for project 1',
+            'category' => 'category for project 1',
             'image' => 'image1.jpg',
+            'url' => 'url for project 1',
+            'description' => 'Description for project 1',
             'created_at' => now(),
             'updated_at' => now(),
         ]);
 
-        Projects::create([
-            'name' => 'Project 2',
+        projects::create([
+            'judul' => 'Project 2',
             'slug' => 'project-2',
+            'category' => 'category for project 2',
+            'image' => 'image1.jpg',
+            'url' => 'url for project 2',
             'description' => 'Description for project 2',
-            'image' => 'image2.jpg',
             'created_at' => now(),
             'updated_at' => now(),
         ]);
 
-        Projects::create([
-            'name' => 'Project 3',
-            'slug' => 'project-3',
-            'description' => 'Description for project 3',
-            'image' => 'image3.jpg',
+        projects::create([
+            'judul' => 'Project 2',
+            'slug' => 'project-2',
+            'category' => 'category for project 2',
+            'image' => 'image1.jpg',
+            'url' => 'url for project 2',
+            'description' => 'Description for project 2',
             'created_at' => now(),
             'updated_at' => now(),
         ]);

@@ -6,3 +6,8 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/project', function () {
+    return view('project');
+});
+
+
