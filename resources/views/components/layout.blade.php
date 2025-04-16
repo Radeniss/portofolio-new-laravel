@@ -47,7 +47,7 @@
                                     class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Certificate</a>
                             </li>
                             <li class="group">
-                                <a href="#blog"
+                                <a href="#blogs"
                                     class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Blog</a>
                             </li>
                             <li class="group">

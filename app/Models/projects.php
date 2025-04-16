@@ -6,6 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class projects extends Model
 {
-    protected $table = 'projects';
-    protected $fillable = ['name', 'description', 'image', 'slug'];
+    protected $fillable = [
+        'judul',
+        'slug',
+        'category',
+        'image',
+        'url',
+        'description',
+        'created_at',
+        'updated_at',
+    ];
 }
