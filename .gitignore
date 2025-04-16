@@ -21,4 +21,4 @@
 # /.nova
 # /.vscode
 # /.zed
-/vendor
+# /vendor
