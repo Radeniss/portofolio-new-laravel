@@ -18,36 +18,37 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        //     [User::factory(10)->create(),
-        //     Post::factory(100)->create(),
-        //     Category::factory(3)->create()
-        // ];        
+        $this->call([CategorySeeder::class, UserSeeder::class]);
+        Post::factory(100)->recycle([
+            Category::all(),
+            User::all()
+        ])->create();
 
         // User::factory()->create([
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
 
-        User::create([
-            'name' => 'Radeniss',
-            'username' => 'radenis',
-            'email' => 'radenis@gmail.com',
-            'email_verified_at' => now(),
-            'password' => Hash::make('password'),
-            'remember_token' => Str::random(10)
-        ]);
+        // User::create([
+        //     'name' => 'Radeniss',
+        //     'username' => 'radenis',
+        //     'email' => 'radenis@gmail.com',
+        //     'email_verified_at' => now(),
+        //     'password' => Hash::make('password'),
+        //     'remember_token' => Str::random(10)
+        // ]);
 
-        Category::create([
-            'name' => 'Category 1',
-            'slug' => 'category-1'
-        ]);
+        // Category::create([
+        //     'name' => 'web developer',
+        //     'slug' => 'web-developer'
+        // ]);
 
-        Post::create([
-            'title' => 'title 1',
-            'author_id' => 1,
-            'category_id' => 1,
-            'slug' => 'test-1',
-            'body' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea aliquid, possimus voluptatem officia voluptas, distinctio molestiae quasi, modi ipsa culpa minus debitis excepturi facere earum fugiat. Nam, minima quasi est laboriosam dolor consectetur pariatur recusandae ad perspiciatis qui quam fuga fugiat natus corrupti culpa cum, sit iste, voluptatum omnis accusamus.'
-        ]);
+        // Post::create([
+        //     'title' => 'pengembangan website',
+        //     'author_id' => 1,
+        //     'category_id' => 1,
+        //     'slug' => 'pengembangan-website',
+        //     'body' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea aliquid, possimus voluptatem officia voluptas, distinctio molestiae quasi, modi ipsa culpa minus debitis excepturi facere earum fugiat. Nam, minima quasi est laboriosam dolor consectetur pariatur recusandae ad perspiciatis qui quam fuga fugiat natus corrupti culpa cum, sit iste, voluptatum omnis accusamus.'
+        // ]);
     }
 }

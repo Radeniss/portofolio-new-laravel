@@ -21,7 +21,7 @@
     {{-- clients section end --}}
 
     {{-- blog section start? --}}
-    <x-blogs></x-blogs>
+    <x-posts></x-posts>
     {{-- blog section end --}}
 
     {{-- contact section start --}}
