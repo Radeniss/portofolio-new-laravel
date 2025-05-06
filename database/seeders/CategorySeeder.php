@@ -14,20 +14,23 @@ class CategorySeeder extends Seeder
     public function run(): void
     {
         // Category::factory(3)->create();
-        Category::create ([
+        Category::create([
             'name' => 'web developer',
             'slug' => 'web-developer',
+            'color' => 'blue',
         ]);
-        
-        Category::create ([
+
+        Category::create([
             'name' => 'game developer',
             'slug' => 'game-developer',
+            'color' => 'green',
         ]);
-        
-        Category::create ([
-        
+
+        Category::create([
+
             'name' => 'slice of life',
             'slug' => 'slice-of-life',
+            'color' => 'red',
         ]);
     }
 }
