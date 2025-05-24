@@ -41,7 +41,8 @@
                 <article
                     class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <div class="flex justify-between items-center mb-5 text-gray-500">
-                        <a href="/categories/{{ $post->category->slug }}"> <span
+                        <a href="/categories/{{ $post->category->slug }}">
+                            <span
                                 class="bg-{{ $post->category->color }}-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                                 <svg class="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20"
                                     xmlns="http://www.w3.org/2000/svg">
