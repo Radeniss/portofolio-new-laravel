@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout2>
 
     <section id="posts" class="pt-20  pb-32 bg-slate-100">
         <div class="container">
@@ -70,4 +70,4 @@
         </div>
     </section>
 
-</x-layout>
+</x-layout2>

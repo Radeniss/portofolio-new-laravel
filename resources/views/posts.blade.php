@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout2>
 
     <section id="posts" class="pt-20  pb-2 bg-slate-100">
         {{-- <div class="container"> --}}
@@ -7,13 +7,12 @@
             <div class="max-w-xl mx-auto text-center mb-16">
                 <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
                 <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Tulisan Terkini</h2>
-                <p class="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Cumque odit minima sint dolores.
+                <p class="font-medium text-md text-secondary md:text-lg">You don't have to be perfect to start. Begin from wherever you are, with whatever you have. Because even the smallest progress is better than standing still and simply waiting for time to pass
                 </p>
             </div>
         </div>
     </section>
-</x-layout>
+</x-layout2>
 
 
 
@@ -65,6 +64,7 @@
 
 
     <div class="py-4 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-0">
+
         <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-2">
 
 
@@ -131,8 +131,12 @@
                     </div>
                 </article>
             @empty
-                <p class="font-semibold text-xl my-4">alamak, tak ado..</p>
+                <div>
+                    <p class="font-semibold text-xl my-4">alamak, tak ado..</p>
+                    <a href="/posts" class="block  text-blue-600 hover:underline">&laquo; Back to all posts</a>
+                </div>
             @endforelse
         </div>
+       <div class="py-5">{{ $posts->links() }}</div>
     </div>
 </section>
