@@ -1,5 +1,5 @@
 <x-layout>
-
+    @vite ('resources/css/app.css', 'resources/js/app.js')
     {{-- home section start --}}
     <x-home></x-home>
     {{-- home section end --}}

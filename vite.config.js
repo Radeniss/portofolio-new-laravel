@@ -8,4 +8,9 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/build', // ← ini default-nya Laravel
+        manifest: true,
+        emptyOutDir: true,
+    },
 });
