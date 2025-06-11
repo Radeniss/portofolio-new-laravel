@@ -7,7 +7,9 @@
             <div class="max-w-xl mx-auto text-center mb-16">
                 <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
                 <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Tulisan Terkini</h2>
-                <p class="font-medium text-md text-secondary md:text-lg">You don't have to be perfect to start. Begin from wherever you are, with whatever you have. Because even the smallest progress is better than standing still and simply waiting for time to pass
+                <p class="font-medium text-md text-secondary md:text-lg">You don't have to be perfect to start. Begin
+                    from wherever you are, with whatever you have. Because even the smallest progress is better than
+                    standing still and simply waiting for time to pass
                 </p>
             </div>
         </div>
@@ -64,10 +66,7 @@
 
 
     <div class="py-4 px-4 mx-auto max-w-screen-xl lg:py-8 lg:px-0">
-
         <div class="grid gap-8 lg:grid-cols-3 md:grid-cols-2">
-
-
             @forelse ($posts as $post)
                 {{-- <article class="py-8 max-w-screen-md border-b border-gray-300">
                     <a href="/posts/{{ $post['slug'] }}" class="hover:underline">
@@ -85,8 +84,6 @@
                     <a href="/posts/{{ $post['slug'] }}" class="font-medium text-blue-500 hover:underline">Read more
                         &raquo;</a>
                 </article> --}}
-
-
                 <article
                     class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <div class="flex justify-between items-center mb-5 text-gray-500">
@@ -137,6 +134,6 @@
                 </div>
             @endforelse
         </div>
-       <div class="py-5">{{ $posts->links() }}</div>
+        <div class="py-5">{{ $posts->links() }}</div>
     </div>
 </section>

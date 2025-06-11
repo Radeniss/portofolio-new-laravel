@@ -20,8 +20,8 @@
     <x-clients></x-clients>
     {{-- clients section end --}}
 
-    {{-- blog section start? --}}
-    <x-posts></x-posts>
+    {{-- blog section start --}}
+    <x-blog></x-blog>
     {{-- blog section end --}}
 
     {{-- contact section start --}}
