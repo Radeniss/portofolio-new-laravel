@@ -1,5 +1,5 @@
 <x-layout>
-  
+
     {{-- home section start --}}
     <x-home></x-home>
     {{-- home section end --}}
