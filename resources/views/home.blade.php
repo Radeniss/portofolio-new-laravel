@@ -1,5 +1,5 @@
 <x-layout>
-    @vite ('resources/css/app.css', 'resources/js/app.js')
+   
     {{-- home section start --}}
     <x-home></x-home>
     {{-- home section end --}}
@@ -21,7 +21,7 @@
     {{-- clients section end --}}
 
     {{-- blog section start --}}
-    <x-blog></x-blog>
+    <x-posts :posts="$posts" />
     {{-- blog section end --}}
 
     {{-- contact section start --}}

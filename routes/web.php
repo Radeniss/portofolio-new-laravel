@@ -8,9 +8,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
 
 
-
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        'posts' => Post::latest()
+            ->filter(request(['search', 'category', 'author']))
+            ->paginate(3) // Atur jumlah sesuai kebutuhan
+            ->withQueryString()
+    ]);
 });
 
 Route::get('/project', function () {
